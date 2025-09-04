@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Sriracha';
+    background-color: beige;
+    color: rgb(27, 95, 18);
+}
+h1,h2,h3{
+    margin: 2rem;
+    font-weight: 1500;
+}
+a{
+    text-decoration: none;
+    color: rgb(120, 179, 125);
+}
+ul{
+    list-style: none;
+}
+.main-header{
+    background-color:rgba(0, 0, 0, 0.726);
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navdar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    max-width: 900px;
+    margin: auto;
+    padding: 0 1rem;
+}
+.logo,ins{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.nav-link{
+    display: flex;
+    gap: 3rem;
+}
+.nav-link a:hover{
+    color: rgb(240, 139, 144);
+}
+.nav-link a{
+    transition: color 0.3s ease ;
+}
+.hero-section{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(161, 165, 170);
+    align-items: center;
+    text-align: center;
+    flex-direction: column;   
+
+}
+.btn{
+    display: inline-block;
+    background-color: rgb(215, 241, 209);
+    padding: 0.4rem 2rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    transition: background-color 0.3s ease ;
+}
+.btn:hover {
+    background-color: rgb(181, 206, 226);
+}
+.about-section,.show-section{
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.about-section{
+    background-color: rgb(181, 201, 181);
+}
+.h22{
+    margin-bottom: 2rem;
+}
+.Porject-section{
+    padding: 4rem 2rem;
+    background-color: aliceblue;
+    text-align: center;
+}
+.Porject-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1100px;
+    margin: auto;
+}
+.Porject-card{
+    background-color: rgb(185, 228, 213);
+    border: 1px solid rgb(33, 85, 92);
+    border-radius: 20px ;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.637) ;
+    transition: transform 0.3s ease;
+}
+.Porject-card:hover{
+    transform: translateY(-5px);
+}
+.Porject-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px ;
+    display: block;
+}
+.Porject-card h3 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.5rem;
+}
+.Porject-card p {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.btn-small{
+    display: inline-block;
+    padding: 1rem 1rem;
+    background-color: rgb(56, 86, 87);
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+}
+.btn-small:hover{
+    background-color: blanchedalmond;
+}
+.main-footer{
+    background-color: darkolivegreen;
+    color: rgb(241, 208, 124);
+    text-align: center;
+    padding: 1.5rem 0;
+}
+

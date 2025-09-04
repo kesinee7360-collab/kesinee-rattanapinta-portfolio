@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(236, 243, 224);
+    text-align: center;
+}
+.woke-photos{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.forn{
+    margin: 1rem;
+}
+fieldset{
+    margin: 1rem;
+}
+.tu{
+    margin: 5px;
+}
